@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="198">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="2298">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -68,6 +68,7 @@
                                     <outlet property="bookAuthorLabel" destination="607" id="name-outlet-607"/>
                                     <outlet property="bookPublisherLabel" destination="608" id="name-outlet-608"/>
                                     <outlet property="bookYearLabel" destination="609" id="name-outlet-609"/>
+                                    <segue id="2601" destination="2383" kind="show" identifier="DetailsSegue"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -76,13 +77,79 @@
                             <outlet property="delegate" destination="198" id="201"/>
                         </connections>
                     </tableView>
+                    <navigationItem title="Books" id="2377" key="navigationItem"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="204" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="97" y="-55"/>
         </scene>
+        <scene sceneID="2297">
+            <objects>
+                <navigationController id="2298" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="2300">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue id="2378" destination="198" kind="relationship" relationship="rootViewController"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2301" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-469" y="-54"/>
+        </scene>
+        <scene sceneID="2382">
+            <objects>
+                <viewController id="2383" sceneMemberID="viewController" customClass="DetailsViewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="2380"/>
+                        <viewControllerLayoutGuide type="bottom" id="2381"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2384">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="548"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="2816" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="20" y="86" width="374" height="597"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Book Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="2817" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="20" y="691" width="374" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="2816"/>
+                                <exclude reference="2817"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="2816"/>
+                                <include reference="2817"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="bookImageView" destination="2816" id="name-outlet-2816"/>
+                        <outlet property="bookNameLabel" destination="2817" id="name-outlet-2817"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2385" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="665" y="-55"/>
+        </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
         <simulatedScreenMetrics key="destination" type="retina55"/>
     </simulatedMetricsContainer>
+    <resources>
+        <image name="Images/rs_634x953-150327114206-634-harry-potter-book-cover.jw.32715.jpg" width="634" height="953"/>
+        <image name="Images/Image-2.jpg" width="795" height="1200"/>
+        <image name="Images/Image-1.jpg" width="634" height="953"/>
+        <image name="Images/Image-3.jpg" width="351" height="500"/>
+    </resources>
 </document>

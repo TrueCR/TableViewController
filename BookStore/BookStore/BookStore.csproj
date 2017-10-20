@@ -88,6 +88,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Resources\" />
+    <Folder Include="Images\" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="LaunchScreen.storyboard" />
@@ -108,6 +109,15 @@
     <Compile Include="BookTableViewCell.designer.cs">
       <DependentUpon>BookTableViewCell.cs</DependentUpon>
     </Compile>
+    <Compile Include="DetailsViewController.cs" />
+    <Compile Include="DetailsViewController.designer.cs">
+      <DependentUpon>DetailsViewController.cs</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Images\Image-2.jpg" />
+    <BundleResource Include="Images\Image-1.jpg" />
+    <BundleResource Include="Images\Image-3.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
