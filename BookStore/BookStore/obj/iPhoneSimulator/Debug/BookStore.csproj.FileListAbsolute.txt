@@ -1,9 +1,0 @@
-/Users/tylerg12/Desktop/Repos/Table View Controller/TableViewController/BookStore/BookStore/bin/iPhoneSimulator/Debug/BookStore.exe
-/Users/tylerg12/Desktop/Repos/Table View Controller/TableViewController/BookStore/BookStore/bin/iPhoneSimulator/Debug/BookStore.pdb
-/Users/tylerg12/Desktop/Repos/Table View Controller/TableViewController/BookStore/BookStore/obj/iPhoneSimulator/Debug/BookStore.csproj.CoreCompileInputs.cache
-/Users/tylerg12/Desktop/Repos/Table View Controller/TableViewController/BookStore/BookStore/obj/iPhoneSimulator/Debug/BookStore.exe
-/Users/tylerg12/Desktop/Repos/Table View Controller/TableViewController/BookStore/BookStore/obj/iPhoneSimulator/Debug/BookStore.pdb
-/Users/tylerg12/Desktop/Repos/Table View Controller/TableViewController/BookStore/BookStore/obj/iPhoneSimulator/Debug/device-builds/iphone7.1-10.3.1/ibtool/_BundleResourceWithLogicalName.items
-/Users/tylerg12/Desktop/Repos/Table View Controller/TableViewController/BookStore/BookStore/obj/iPhoneSimulator/Debug/device-builds/iphone7.1-10.3.1/actool/_PartialAppManifest.items
-/Users/tylerg12/Desktop/Repos/Table View Controller/TableViewController/BookStore/BookStore/obj/iPhoneSimulator/Debug/device-builds/iphone7.1-10.3.1/actool/_BundleResourceWithLogicalName.items
-/Users/tylerg12/Desktop/Repos/Table View Controller/TableViewController/BookStore/BookStore/obj/iPhoneSimulator/Debug/device-builds/iphone7.1-10.3.1/optimized/

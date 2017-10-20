@@ -12,7 +12,12 @@ namespace BookStore
             get { return bookData; }
             set 
             {
-                bookData = value; 
+                bookData = value;
+
+                bookAuthorLabel.Text = bookData.Author;
+                bookNameLabel.Text = bookData.Name;
+                bookYearLabel.Text = bookData.Year.ToString();
+                bookPublisherLabel.Text = bookData.Publisher;
             }
         }
 
