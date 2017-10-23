@@ -9,34 +9,35 @@ namespace BookStore
     public partial class BooksTableViewController : UITableViewController
     {
         List<Book> bookList;
-        public BooksTableViewController (IntPtr handle) : base (handle)
+        public BooksTableViewController(IntPtr handle) : base(handle)
         {
             // add as many books as you want
             bookList = new List<Book>();
 
-            bookList.Add(new Book() {
+            bookList.Add(new Book()
+            {
                 Author = "J.K Rowling",
                 Name = "Harry Potter and the Sorcerer's Stone",
                 Publisher = "Bloomsbury",
                 Year = 1997,
+                ImagePath = "Images/Image-2.jpg"
+            });
+            bookList.Add(new Book()
+            {
+                Author = "J.K Rowling",
+                Name = "Harry Potter and the Chamber of Secrets",
+                Publisher = "Bloomsbury",
+                Year = 1998,
                 ImagePath = "Images/Image-1.jpg"
             });
-			bookList.Add(new Book()
-			{
-				Author = "J.K Rowling",
-				Name = "Harry Potter and the Chamber of Secrets",
-				Publisher = "Bloomsbury",
-				Year = 1998,
-                ImagePath = "Images/Image-2.jpg"
-			});
-			bookList.Add(new Book()
-			{
-				Author = "J.K Rowling",
-				Name = "Harry Potter and the Prisoner of Azkaban",
-				Publisher = "Bloomsbury",
-				Year = 1999,
+            bookList.Add(new Book()
+            {
+                Author = "J.K Rowling",
+                Name = "Harry Potter and the Prisoner of Azkaban",
+                Publisher = "Bloomsbury",
+                Year = 1999,
                 ImagePath = "Images/Image-3.jpg"
-			});
+            });
         }
 
         public override nint NumberOfSections(UITableView tableView)
@@ -60,7 +61,7 @@ namespace BookStore
             return cell;
         }
 
-        /*public override void PrepareForSegue (UIStoryboard segue, NSObject sender)
+        public override void PrepareForSegue(UIStoryboardSegue segue, NSObject sender)
         {
             if (segue.Identifier == "DetailsSegue")
             {
@@ -69,20 +70,19 @@ namespace BookStore
                 if (navigationController != null)
                 {
                     var rowPath = TableView.IndexPathForSelectedRow;
-                    var selectedData = bookList[rowPath.Row];
+        var selectedData = bookList[rowPath.Row];
                     navigationController.selectedBook = selectedData;
-                }
-            }
+    }
+}
         }
-        */
     }
 
     public class Book
-    {
-        public string Name;
-        public string Author;
-        public string Publisher;
-        public int Year;
-        public string ImagePath;
-    }
+{
+    public string Name;
+    public string Author;
+    public string Publisher;
+    public int Year;
+    public string ImagePath;
+}
 }
