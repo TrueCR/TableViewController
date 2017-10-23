@@ -38,6 +38,38 @@ namespace BookStore
                 Year = 1999,
                 ImagePath = "Images/Image-3.jpg"
             });
+			bookList.Add(new Book()
+			{
+				Author = "J.K Rowling",
+				Name = "Harry Potter and the Goblet of Fire",
+				Publisher = "Bloomsbury",
+				Year = 2000,
+				ImagePath = "Images/Image-4.jpg"
+			});
+			bookList.Add(new Book()
+			{
+				Author = "J.K Rowling",
+				Name = "Harry Potter and the Order of the Phoenix",
+				Publisher = "Bloomsbury",
+				Year = 2003,
+				ImagePath = "Images/Image-5.jpg"
+			});
+			bookList.Add(new Book()
+			{
+				Author = "J.K Rowling",
+				Name = "Harry Potter and the Half-Blood Prince",
+				Publisher = "Bloomsbury",
+				Year = 2005,
+				ImagePath = "Images/Image-6.jpg"
+			});
+			bookList.Add(new Book()
+			{
+				Author = "J.K Rowling",
+				Name = "Harry Potter and the Deathly Hallows",
+				Publisher = "Bloomsbury",
+				Year = 2007,
+				ImagePath = "Images/Image-7.jpg"
+			});
         }
 
         public override nint NumberOfSections(UITableView tableView)

@@ -1,0 +1,9 @@
+/Users/tylerg12/Desktop/Repos/Table View Controller/TableViewController/BookStore/BookStore/bin/iPhone/Debug/BookStore.exe
+/Users/tylerg12/Desktop/Repos/Table View Controller/TableViewController/BookStore/BookStore/bin/iPhone/Debug/BookStore.pdb
+/Users/tylerg12/Desktop/Repos/Table View Controller/TableViewController/BookStore/BookStore/obj/iPhone/Debug/ibtool/_BundleResourceWithLogicalName.items
+/Users/tylerg12/Desktop/Repos/Table View Controller/TableViewController/BookStore/BookStore/obj/iPhone/Debug/actool/_PartialAppManifest.items
+/Users/tylerg12/Desktop/Repos/Table View Controller/TableViewController/BookStore/BookStore/obj/iPhone/Debug/actool/_BundleResourceWithLogicalName.items
+/Users/tylerg12/Desktop/Repos/Table View Controller/TableViewController/BookStore/BookStore/obj/iPhone/Debug/optimized/
+/Users/tylerg12/Desktop/Repos/Table View Controller/TableViewController/BookStore/BookStore/obj/iPhone/Debug/BookStore.csproj.CoreCompileInputs.cache
+/Users/tylerg12/Desktop/Repos/Table View Controller/TableViewController/BookStore/BookStore/obj/iPhone/Debug/BookStore.exe
+/Users/tylerg12/Desktop/Repos/Table View Controller/TableViewController/BookStore/BookStore/obj/iPhone/Debug/BookStore.pdb
